@@ -1,5 +1,33 @@
 {
   "extends": "@react-native/typescript-config",
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/node_modules", "**/Pods"]
+  "exclude": ["**/node_modules", "**/Pods"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"],
+      "@screens": ["src/screens"],
+      "@screens/*": ["src/screens/*"],
+      "@hooks": ["src/hooks"],
+      "@hooks/*": ["src/hooks/*"],
+      "@stores": ["src/stores"],
+      "@stores/*": ["src/stores/*"],
+      "@services": ["src/services"],
+      "@services/*": ["src/services/*"],
+      "@navigation": ["src/navigation"],
+      "@navigation/*": ["src/navigation/*"],
+      "@hocs": ["src/hocs"],
+      "@hocs/*": ["src/hocs/*"],
+      "@app-types": ["src/types"],
+      "@app-types/*": ["src/types/*"],
+      "@mocks": ["src/mocks"],
+      "@mocks/*": ["src/mocks/*"],
+      "@api": ["src/api"],
+      "@api/*": ["src/api/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"]
+    }
+  }
 }
