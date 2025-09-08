@@ -272,13 +272,16 @@ src/
 <div align="center">
 
 ### **Home Screen**
-![Home Screen](https://via.placeholder.com/300x600/161038/FFFFFF?text=Energy+Analytics)
+![Home Screen]
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 49" src="https://github.com/user-attachments/assets/8175d3a7-3876-45e3-8c95-d2eb5a50e5d2" />
 
 ### **Date Selection**
-![Date Selection](https://via.placeholder.com/300x600/070709/FFFFFF?text=Date+Picker)
+![Date Selection]
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 54" src="https://github.com/user-attachments/assets/bc1c5211-4e5c-4090-a718-745b0cc4860a" />
 
 ### **Chart View**
-![Chart View](https://via.placeholder.com/300x600/161038/FFFFFF?text=Energy+Chart)
+![Chart View]
+<img width="445" height="870" alt="Screenshot 2025-09-09 at 00 56 52" src="https://github.com/user-attachments/assets/a90e679f-ebc5-4858-ad77-e2d5d8165bc3" />
 
 </div>
 
@@ -300,23 +303,6 @@ src/
 - **Prettier** for code formatting
 - **JSDoc** for documentation
 - **Jest** for testing
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **React Native** team for the amazing framework
-- **Zustand** for lightweight state management
-- **React Native Reanimated** for smooth animations
-- **D3** for powerful data visualization tools
-
----
 
 <div align="center">
 
