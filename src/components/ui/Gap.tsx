@@ -32,6 +32,7 @@ interface GapProps {
   paddingHorizontal?: number;
   paddingVertical?: number;
   children: ReactNode;
+  testID?: string;
 }
 
 export default function Gap({
@@ -40,9 +41,11 @@ export default function Gap({
   paddingHorizontal = 0,
   paddingVertical = 0,
   children,
+  testID,
 }: GapProps) {
   return (
     <View
+      testID={testID}
       style={[
         {
           flexDirection: direction === 'vertical' ? 'column' : 'row',
@@ -52,7 +55,7 @@ export default function Gap({
         },
       ]}
     >
-        {children}
+      {children}
     </View>
   );
 }

@@ -1,8 +1,8 @@
 /**
  * Empty Data Component
- * 
+ *
  * Displays a card with sad emoji and message when no data is available
- * 
+ *
  * @example
  * ```tsx
  * <EmptyData message="No energy data available" />
@@ -24,31 +24,29 @@ interface EmptyDataProps {
 
 /**
  * Empty Data Component
- * 
+ *
  * Renders a card with sad emoji and message when no data is available
- * 
+ *
  * @param message - Custom message to display (default: "No data available")
  * @param emoji - Custom emoji to display (default: "😔")
  * @returns JSX element with empty state card
  */
-export default function EmptyData({ 
-  message = "No data available", 
-  emoji = "😔" 
+export default function EmptyData({
+  message = 'No data available',
+  emoji = '😔',
 }: EmptyDataProps) {
   return (
     <View style={styles.card}>
-<Text style={styles.emoji}>{emoji}</Text>
-        <Text style={styles.message}>{message}</Text>
-        <Text style={styles.subtitle}>Try selecting a different date</Text>
+      <Text style={styles.emoji}>{emoji}</Text>
+      <Text style={styles.message}>{message}</Text>
+      <Text style={styles.subtitle}>Try selecting a different date</Text>
     </View>
-      
-        
   );
 }
 
 const styles = StyleSheet.create({
   /** Main container with padding */
-  
+
   /** Card with gradient background and rounded corners */
   card: {
     borderRadius: 16,
@@ -56,7 +54,6 @@ const styles = StyleSheet.create({
     padding: 32,
     alignItems: 'center',
     justifyContent: 'center',
-
   },
   /** Large emoji text */
   emoji: {

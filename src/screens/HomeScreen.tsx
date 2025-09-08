@@ -25,7 +25,7 @@ import LineGradientChart from '@/components/features/LineGradientChart';
 import EmptyData from '@/components/ui/EmptyData';
 
 /** Today's date ID for special labeling in date selector (actually yesterday) */
-const TODAY_DATE_ID = '21-01-2025';
+const TODAY_DATE_ID = '22-01-2025';
 
 /**
  * Home Screen Component
