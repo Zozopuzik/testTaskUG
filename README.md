@@ -273,11 +273,11 @@ src/
 
 ### **Home Screen**
 ![Home Screen]
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 49" src="https://github.com/user-attachments/assets/8175d3a7-3876-45e3-8c95-d2eb5a50e5d2" />
+<img width="400" height="600" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 49" src="https://github.com/user-attachments/assets/8175d3a7-3876-45e3-8c95-d2eb5a50e5d2" />
 
 ### **Date Selection**
 ![Date Selection]
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 54" src="https://github.com/user-attachments/assets/bc1c5211-4e5c-4090-a718-745b0cc4860a" />
+<img width="400" height="600" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 54" src="https://github.com/user-attachments/assets/bc1c5211-4e5c-4090-a718-745b0cc4860a" />
 
 ### **Chart View**
 ![Chart View]
