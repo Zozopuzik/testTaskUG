@@ -271,17 +271,17 @@ src/
 
 <div align="center">
 
-### **Home Screen**
-![Home Screen]
+### **Splash Screen**
 <img width="300" height="650" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 49" src="https://github.com/user-attachments/assets/8175d3a7-3876-45e3-8c95-d2eb5a50e5d2" />
 
-### **Date Selection**
-![Date Selection]
+### **Home Selection**
 <img width="300" height="650" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 54" src="https://github.com/user-attachments/assets/bc1c5211-4e5c-4090-a718-745b0cc4860a" />
 
 ### **Chart View**
-![Chart View]
 <img width="300" height="650" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 55 54" src="https://github.com/user-attachments/assets/9c6ae8e7-b88a-475e-aaf2-383e256d7035" />
+
+### **Empty data View**
+<img width="300" height="650" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-09 at 02 56 02" src="https://github.com/user-attachments/assets/de3ece03-a261-4dc3-ba9c-7f9021dadbbc" />
 
 </div>
 
