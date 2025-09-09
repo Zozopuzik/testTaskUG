@@ -11,24 +11,7 @@
  */
 import { create } from 'zustand';
 import { delay } from '@/utils/delay';
-
-/**
- * App store state interface
- * 
- * Defines the shape of the app store state and actions
- */
-interface AppState {
-  /** Whether the app has been fully initialized */
-  isInitialized: boolean;
-  /** Global loading state for app operations */
-  isLoading: boolean;
-  /** Set initialization status */
-  setInitialized: (value: boolean) => void;
-  /** Set loading state */
-  setLoading: (value: boolean) => void;
-  /** Initialize the app with async operations */
-  initializeApp: () => Promise<void>;
-}
+import { AppState } from '@/types/common';
 
 /**
  * App store hook

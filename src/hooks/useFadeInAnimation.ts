@@ -26,7 +26,9 @@ import {
  * ```
  */
 
-interface UseFadeInAnimationProps {
+import { BaseComponentProps } from '@/types/common';
+
+interface UseFadeInAnimationProps extends BaseComponentProps {
   delay?: number;
   duration?: number;
   initialOpacity?: number;

@@ -11,28 +11,8 @@
  * ```
  */
 import { create } from 'zustand';
-import { DateItem } from '@/mocks/datesData';
 import { datesApi } from '@/api/datesApi';
-
-/**
- * Dates store state interface
- * 
- * Defines the shape of the dates store state and actions
- */
-interface DatesState {
-  /** Array of available dates for selection */
-  dates: DateItem[];
-  /** Currently selected date or null if none selected */
-  selectedDate: DateItem | null;
-  /** Loading state for dates requests */
-  isLoading: boolean;
-  /** Error message if dates loading failed */
-  error: string | null;
-  /** Load available dates from API */
-  loadDates: () => Promise<void>;
-  /** Select a date by ID */
-  selectDate: (id: string) => void;
-}
+import { DateItem, DatesState } from '@/types/common';
 
 /**
  * Dates store hook
@@ -65,7 +45,7 @@ export const useDatesStore = create<DatesState>((set, get) => ({
     try {
       const dates = await datesApi.getAvailableDates();
       // Find and set selectedDate to yesterday (21-01-2025) instead of today
-      const defaultSelectedDate = dates.find(date => date.id === '21-01-2025') || dates[0];
+      const defaultSelectedDate = dates.find(date => date.id === '22-01-2025') || dates[0];
       set({ dates, selectedDate: defaultSelectedDate, isLoading: false });
     } catch (error) {
       set({ 

@@ -1,4 +1,4 @@
-import type { DateItem } from '@/mocks/datesData';
+import type { DateItem } from '@/types/common';
 import { dateSData } from '@/mocks/datesData';
 import { delay } from '@/utils/delay';
 

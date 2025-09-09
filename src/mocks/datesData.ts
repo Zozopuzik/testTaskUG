@@ -11,21 +11,7 @@
  * ```
  */
 
-/**
- * Date item interface
- * 
- * Represents a single date option in the date selector
- */
-export interface DateItem {
-  /** Unique identifier in DD-MM-YYYY format */
-  id: string;
-  /** Short label for display (day number) */
-  label: string;
-  /** Formatted value for display (DD/MM/YY) */
-  value: string;
-  /** Full date string for display (DD/MM/YY) */
-  date: string;
-}
+import { DateItem } from '@/types/common';
 
 /**
  * Mock dates data

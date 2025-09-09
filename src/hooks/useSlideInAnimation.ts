@@ -26,8 +26,10 @@ import {
  * ```
  */
 
-interface UseSlideInAnimationProps {
-  direction?: 'left' | 'right' | 'top' | 'bottom';
+import { BaseComponentProps, AnimationDirection } from '@/types/common';
+
+interface UseSlideInAnimationProps extends BaseComponentProps {
+  direction?: AnimationDirection;
   delay?: number;
   duration?: number;
   distance?: number;

@@ -12,10 +12,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import { LinearGradient } from 'react-native-linear-gradient';
 
+import { BaseComponentProps } from '@/types/common';
+
 /**
  * Empty data component props
  */
-interface EmptyDataProps {
+interface EmptyDataProps extends BaseComponentProps {
   /** Custom message to display */
   message?: string;
   /** Custom emoji to display */

@@ -26,13 +26,13 @@ import React, { ReactNode } from 'react';
  * ```
  */
 
-interface GapProps {
+import { BaseComponentProps } from '@/types/common';
+
+interface GapProps extends BaseComponentProps {
   size: number;
   direction: 'horizontal' | 'vertical';
   paddingHorizontal?: number;
   paddingVertical?: number;
-  children: ReactNode;
-  testID?: string;
 }
 
 export default function Gap({

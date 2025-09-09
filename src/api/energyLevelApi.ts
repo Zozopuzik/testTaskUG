@@ -1,23 +1,6 @@
 import { energyLevelData } from '@mocks/energyLevelData';
 import { delay } from '@/utils/delay';
-
-/**
- * Energy level data structure
- */
-export interface EnergyLevelData {
-  id: string;
-  date: string;
-  timestamp: number;
-  rawData?: any[]; // Raw data points for chart
-}
-
-/**
- * API Error structure
- */
-export interface ApiError {
-  status: number;
-  message: string;
-}
+import { EnergyLevelData, ApiError } from '@/types/common';
 
 /**
  * Energy level API

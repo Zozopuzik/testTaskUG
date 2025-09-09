@@ -1,10 +1,7 @@
 /**
  * Energy level data point
  */
-export interface EnergyLevelPoint {
-  date: string;
-  value: 'Low' | 'Medium' | 'High';
-}
+import { EnergyLevelPoint } from '@/types/common';
 
 /**
  * Mock energy level data

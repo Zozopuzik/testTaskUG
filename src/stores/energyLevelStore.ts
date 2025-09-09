@@ -10,27 +10,7 @@
  * ```
  */
 import { create } from 'zustand';
-import { EnergyLevelData, ApiError } from '@api/energyLevelApi';
-
-/**
- * Energy level store state interface
- * 
- * Defines the shape of the energy level store state and actions
- */
-interface EnergyLevelState {
-  /** Current energy level data or null if not loaded */
-  energyData: EnergyLevelData | null;
-  /** Loading state for energy data requests */
-  isLoading: boolean;
-  /** API error if data loading failed */
-  error: ApiError | null;
-  /** Load energy data for specific day */
-  loadEnergyData: (dayId: string) => Promise<void>;
-  /** Clear current error state */
-  clearError: () => void;
-  /** Clear all data and errors */
-  clearData: () => void;
-}
+import { ApiError, EnergyLevelState } from '@/types/common';
 
 /**
  * Energy level store hook
@@ -68,7 +48,7 @@ export const useEnergyLevelStore = create<EnergyLevelState>((set, get) => ({
       set({ 
         energyData: null,
         isLoading: false,
-        error: apiError 
+        error: apiError.message as string
       });
     }
   },

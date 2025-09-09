@@ -14,29 +14,6 @@
  */
 import * as d3 from 'd3-shape';
 
-/**
- * Chart point interface
- * 
- * Represents a single point on the chart with coordinates and metadata
- */
-export interface ChartPoint {
-  x: number;
-  y: number;
-  value: number;
-  originalValue: string;
-}
-
-/**
- * Chart configuration interface
- * 
- * Defines dimensions and padding for chart rendering
- */
-export interface ChartConfig {
-  width: number;
-  height: number;
-  padding: number;
-}
-
 
 /** Energy level ordering for sorting */
 const ORDER = { Low: 1, Medium: 2, High: 3 } as const;

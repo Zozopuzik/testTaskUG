@@ -9,7 +9,7 @@
  * ```
  */
 import { StyleSheet } from 'react-native';
-import React, { useMemo, useCallback } from 'react';
+import React, { useMemo } from 'react';
 import { processChartData } from '@/utils/chartHelpers';
 import GradientChart from '@/components/ui/GradientChart';
 import Animated from 'react-native-reanimated';

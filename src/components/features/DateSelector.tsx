@@ -15,8 +15,8 @@
  */
 import { FlatList, StyleSheet } from 'react-native';
 import React, { useRef, useEffect, useCallback, useMemo } from 'react';
-import { DateItem } from '@/mocks/datesData';
-import SelectorButton from '../ui/SelectorButton';
+import { DateItem } from '@/types/common';
+import SelectorButton from '@/components/ui/SelectorButton';
 import Animated from 'react-native-reanimated';
 import { useFadeInAnimation } from '@/hooks/useFadeInAnimation';
 import { useSlideInAnimation } from '@/hooks/useSlideInAnimation';

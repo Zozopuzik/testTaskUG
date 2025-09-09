@@ -27,7 +27,9 @@ import {
  * ```
  */
 
-interface UseScaleAnimationProps {
+import { BaseComponentProps } from '@/types/common';
+
+interface UseScaleAnimationProps extends BaseComponentProps {
   delay?: number;
   duration?: number;
   initialScale?: number;
